@@ -1,0 +1,15 @@
+.bg{
+    background-image: url("https://ik.imagekit.io/abinaya/MERN/sea-ocean");
+    height: 100vh;
+    width: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pc{
+    background-image: url("https://ik.imagekit.io/abinaya/MERN/taj-mahal");
+    height: 100vh;
+    width: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

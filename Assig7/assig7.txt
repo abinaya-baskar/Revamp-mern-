@@ -1,0 +1,102 @@
+HTML:
+
+1.WHAT IS HTML 
+    HTML stands for Hyper Text Markup Language. 
+
+2.WHY HTML IS USED
+    It's the standard language used to create and design the content and sturcture of web pages.
+
+3.What is Emmet & List 5 Emmet 
+    !
+    link:css
+    div*3
+    div>p*3
+    div>div*2>p*7
+
+4.SHORT CUT CREATE of Emmet Boiler plate of HTML
+    !
+
+5.WHAT STRUCTURE OF HTML
+    <!DOCTYPE html>
+    <html></html>
+    <head></head>
+    <body></body>
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section></section>
+    <article></article>
+
+6.WHAT IS HEAD TAG
+    Head tag is a contains of Meta data/tag , it contain external links, title tag.
+
+7.WHAT IS BODY TAG 
+    Body is a main tag in html file. It contain the content of web page, has mainy tags includes 
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section></section>
+    <article></article>
+
+8.IMPORTANT 3 ELEMENTS OR TAGS
+    <html></html>
+    <head></head>
+    <body></body>
+
+9.WHAT IS DIFFERENT B/W ELEMENTS & TAGS IN HTML
+    Tags are the specific keywords enclosed in angle brackets that define the start and end of an element.
+
+    Elements are the complete structure, including the tags and the content within them.
+
+
+CSS:
+
+1.WHAT IS CSS
+    Cascading Style Sheet.
+
+2.WHY IS CSS
+    CSS is used to style and layout web pages. It allows you to control the visual presentation of HTML elements,
+    making your web pages more attractive and user-friendly.
+
+3.HOW TO GET FONT & COLOR , IMAGE, CDN
+    Go to Google Fonts and Select the font you like then Click on the "Select this style" button.
+    Copy the provided <link> tag or @import statement.
+
+4.BASIC CSS FAMILY : Text Family, Color & Background Family, Box Model
+    Text Family- specifies the text Fonts
+    Color-color of the text.
+    Background color, Background image, Background properties such as no-repeat.
+    Box model properties- margin: The space outside the border.
+                         Border: The boundary of an element.
+                         Padding: The space between the border and the content.
+                         width and height.
+
+5.WHEN TO USE BACKGROUND IMG VS IMG TAG
+    BACKGROUND IMG: When text/content are needed to display over the image and the image is purely used for decoration.
+    IMG TAG: Used when image plays important role in UI and user want to see clearly.
+
+6.WHAT IS LAYOUT & Explain About flexbox Properties 
+    Layout refers to the arrangement and organization of elements on a web page.
+    Flexbox is a one-dimensional layout model in CSS and are used to align the content inside the container.
+        Flex-row used to align in row order.
+            justify-start,end,center -to move to start,end,center in row.
+            item-start,end,center -to move to start,end,center in column.
+        Flex-col used to align in column order.
+            justify-start,end,center -to move to start,end,center in column.
+            item-start,end,center -to move to start,end,center in row.
+        Justify-order - control the order of content.
+        Justify-gap- control the gap betweeen content.
+        Justify-between -places the first item at the start and the last item at the end of the container, with 
+                        equal space between each item.
+        Justify-around -Each item has equal space around it, meaning the space on the left of the first item and the 
+                        right of the last item is half the space between items.
+        Justify-evenly - distributes space equally between items, ensuring that the space between each item is the same.
+
+7.WHAT IS TAILWIND CSS & WHY IS IT USED
+    Tailwind CSS is a utility-first CSS framework that allows developers to build modern and responsive UI designs quickly.
+    Unlike traditional CSS frameworks (like Bootstrap), which provide pre-styled components, Tailwind focuses on utility
+    classes that can be directly applied to HTML elements.
+    USES:  
+        Fast UI Development – No need to write separate CSS files.
+        No CSS Conflicts – Avoids issues with class naming and overrides.
+        Reduces the need for writing custom CSS, which can become hard to maintain as the project grows
